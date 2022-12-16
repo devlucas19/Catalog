@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    background-color: white;
+    max-width: max-content;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#typeButtons{
+    display: flex;
+}
+
+#typeButtons > button{
+    background-color: white;
+    max-width: max-content;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#typeButtons>button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+#buttons{
+    display: flex;
+    margin-bottom: 50px;
+    max-width: max-content;
+}
+
+@media (min-width: 768px) {
+    #buttons>button {
+        padding: 0.25em 0.75em;
+    }
+}
+
+#buttons > button{
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#buttons > button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    max-height: max-content;
+    padding: 20px;
+    border-radius: 2px;
+    background: white;
+    background-color: white;
+    text-transform: uppercase;
+    border: 3px solid;
+    box-shadow: 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px, 6px 6px 0px 0px, 7px 7px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.item > a > img{
+    border-radius: 2px;
+}
+
+.desc > h2{
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.desc>h3{
+    font-size: 16px;
+}
+
+.desc>h4{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
